@@ -1,0 +1,76 @@
+;
+;	File 'topol.top' was generated
+;	By user: colemanlm (22161)
+;	On host: schooner2.oscer.ou.edu
+;	At date: Thu May 28 11:25:28 2026
+;
+;	This is a standalone topology file
+;
+;	Created by:
+;	                     :-) GROMACS - gmx pdb2gmx, 2022 (-:
+;	
+;	Executable:   /home/adchesney/software/gromacs/2022/mpi-omp/GCCcore/10.2.0/OpenMPI/4.0.5-GCC-10.2.0/bin/gmx_mpi
+;	Data prefix:  /home/adchesney/software/gromacs/2022/mpi-omp/GCCcore/10.2.0/OpenMPI/4.0.5-GCC-10.2.0
+;	Working dir:  /ourdisk/hpc/cbpc/colemanlm/dont_archive/TTR/KALGIV/topol
+;	Command line:
+;	  gmx_mpi pdb2gmx -f KALGIV_ttr_wt.pdb -o KALGIV_ttr_wt.gro -ter -water tip3p -p topol.top -i posre.itp -ignh
+;	Force field was read from the standard GROMACS share directory.
+;
+
+; Include forcefield parameters
+#include "charmm27.ff/forcefield.itp"
+
+; Include chain topologies
+#include "topol_Protein_chain_A.itp"
+#include "topol_Protein_chain_B.itp"
+#include "topol_Protein_chain_C.itp"
+#include "topol_Protein_chain_D.itp"
+#include "topol_Protein_chain_E.itp"
+#include "topol_Protein_chain_F.itp"
+#include "topol_Protein_chain_G.itp"
+#include "topol_Protein_chain_H.itp"
+#include "topol_Protein_chain_I.itp"
+#include "topol_Protein_chain_J.itp"
+#include "topol_Protein_chain_K.itp"
+#include "topol_Protein_chain_L.itp"
+#include "topol_Protein_chain_M.itp"
+#include "topol_Protein_chain_N.itp"
+#include "topol_Protein_chain_O.itp"
+
+; Include water topology
+#include "charmm27.ff/tip3p.itp"
+
+#ifdef POSRES_WATER
+; Position restraint for each water oxygen
+[ position_restraints ]
+;  i funct       fcx        fcy        fcz
+   1    1       1000       1000       1000
+#endif
+
+; Include topology for ions
+#include "charmm27.ff/ions.itp"
+
+[ system ]
+; Name
+Protein in water
+
+[ molecules ]
+; Compound        #mols
+Protein_chain_A     1
+Protein_chain_B     1
+Protein_chain_C     1
+Protein_chain_D     1
+Protein_chain_E     1
+Protein_chain_F     1
+Protein_chain_G     1
+Protein_chain_H     1
+Protein_chain_I     1
+Protein_chain_J     1
+Protein_chain_K     1
+Protein_chain_L     1
+Protein_chain_M     1
+Protein_chain_N     1
+Protein_chain_O     1
+SOL         60898
+NA               177
+CL               177
