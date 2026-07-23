@@ -3,39 +3,41 @@ This directory contains (besides this README.txt) four folders (Control, K6V, W6
 1) Control:
 
 Atomic coordinates (in PDB format) of the start and final configurations of the control TTR fibril simulations:
-TTR_control_1_initial : Initial structure of TTR fibril replica 1
-TTR_control_2_initial : Initial structure of TTR fibril replica 2
-TTR_control_3_initial : Initial structure of TTR fibril replica 3
-TTR_control_1_final   : Final structure of TTR fibril replica 1
-TTR_control_2_final   : Final structure of TTR fibril replica 2
-TTR_control_3_final   : Final structure of TTR fibril replica 3
+control_initial_1 : Initial structure of TTR fibril replica 1
+control_initial_2 : Initial structure of TTR fibril replica 2
+control_initial_3 : Initial structure of TTR fibril replica 3
+control_final_1   : Final structure of TTR fibril replica 1
+control_final_2   : Final structure of TTR fibril replica 2
+control_final_3   : Final structure of TTR fibril replica 3
+control_400K_initial  : Initial structure of TTR fibril in 400K control simulation
+control_400K_final    : Final structure of TTR fibril in 400K control simulation
 
 2) K6V:
 
 Atomic coordinates (in PDB format) of the start and final configurations of the TTR fibril simulations with K6V:
-TTR_K6V_1_initial : Initial structure of TTR fibril with K6V replica 1
-TTR_K6V_2_initial : Initial structure of TTR fibril with K6V replica 2
-TTR_K6V_3_initial : Initial structure of TTR fibril with K6V replica 3
-TTR_K6V_1_final   : Final structure of TTR fibril with K6V replica 1
-TTR_K6V_2_final   : Final structure of TTR fibril with K6V replica 2
-TTR_K6V_3_final   : Final structure of TTR fibril with K6V replica 3
-
-4) W6Y:
-
-Atomic coordinates (in PDB format) of the start and final configurations of the TTR fibril simulations with W6Y:
-TTR_W6Y_1_initial : Initial structure of TTR fibril with W6Y replica 1
-TTR_W6Y_2_initial : Initial structure of TTR fibril with W6Y replica 2
-TTR_W6Y_3_initial : Initial structure of TTR fibril with W6Y replica 3
-TTR_W6Y_1_final   : Final structure of TTR fibril with W6Y replica 1
-TTR_W6Y_2_final   : Final structure of TTR fibril with W6Y replica 2
-TTR_W6Y_3_final   : Final structure of TTR fibril with W6Y replica 3
+K6V_initial_1 : Initial structure of TTR fibril with K6V replica 1
+K6V_initial_2 : Initial structure of TTR fibril with K6V replica 2
+K6V_initial_3 : Initial structure of TTR fibril with K6V replica 3
+K6V_final_1   : Final structure of TTR fibril with K6V replica 1
+K6V_final_2   : Final structure of TTR fibril with K6V replica 2
+K6V_final_3   : Final structure of TTR fibril with K6V replica 3
 
 3) W6I:
 
 Atomic coordinates (in PDB format) of the start and final configurations of the TTR fibril simulations with W6I:
-TTR_W6I_1_initial : Initial structure of TTR fibril with W6I replica 1
-TTR_W6I_2_initial : Initial structure of TTR fibril with W6I replica 2
-TTR_W6I_3_initial : Initial structure of TTR fibril with W6I replica 3
-TTR_W6I_1_final   : Final structure of TTR fibril with W6I replica 1
-TTR_W6I_2_final   : Final structure of TTR fibril with W6I replica 2
-TTR_W6I_3_final   : Final structure of TTR fibril with W6I replica 3
+W6I_initial_1 : Initial structure of TTR fibril with W6I replica 1
+W6I_initial_2 : Initial structure of TTR fibril with W6I replica 2
+W6I_initial_3 : Initial structure of TTR fibril with W6I replica 3
+W6I_final_1   : Final structure of TTR fibril with W6I replica 1
+W6I_final_2   : Final structure of TTR fibril with W6I replica 2
+W6I_final_3   : Final structure of TTR fibril with W6I replica 3
+
+4) W6Y:
+
+Atomic coordinates (in PDB format) of the start and final configurations of the TTR fibril simulations with W6Y:
+W6Y_initial_1 : Initial structure of TTR fibril with W6Y replica 1
+W6Y_initial_2 : Initial structure of TTR fibril with W6Y replica 2
+W6Y_initial_3 : Initial structure of TTR fibril with W6Y replica 3
+W6Y_final_1   : Final structure of TTR fibril with W6Y replica 1
+W6Y_final_2   : Final structure of TTR fibril with W6Y replica 2
+W6Y_final_3   : Final structure of TTR fibril with W6Y replica 3
